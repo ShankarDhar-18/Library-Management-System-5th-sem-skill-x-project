@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f5;
+}
+
+header {
+    background: #003366;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.form-section label {
+    font-weight: bold;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #007bff;
+    color: #fff;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-section {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-section input {
+    flex: 1;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #003366;
+    color: white;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background: #ffaa00;
+    color: black;
+}
+
+.edit-btn:hover {
+    background: #cc8800;
+}
+
+.delete-btn {
+    background: #e60000;
+}
+
+.delete-btn:hover {
+    background: #990000;
+}
